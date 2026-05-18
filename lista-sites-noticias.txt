@@ -1,0 +1,188 @@
+############################################################
+# WHITELIST COMPLETA - SITES DE NOTÍCIAS
+# BRASIL + INTERNACIONAL
+# Compatível:
+# - Pi-hole
+# - AdGuard Home
+# - Technitium
+# - MikroTik DNS
+# - pfSense
+############################################################
+
+############################################################
+# BRASIL - PORTAIS PRINCIPAIS
+############################################################
+globo.com
+g1.globo.com
+ge.globo.com
+valor.globo.com
+oglobo.globo.com
+extra.globo.com
+
+uol.com.br
+noticias.uol.com.br
+economia.uol.com.br
+esporte.uol.com.br
+
+terra.com.br
+terra.com
+
+r7.com
+noticias.r7.com
+
+ig.com.br
+
+bol.uol.com.br
+
+############################################################
+# JORNAIS BRASIL
+############################################################
+folha.uol.com.br
+f5.folha.uol.com.br
+
+estadao.com.br
+politica.estadao.com.br
+economia.estadao.com.br
+
+cnnbrasil.com.br
+
+gazetadopovo.com.br
+
+correiobraziliense.com.br
+
+diariodepernambuco.com.br
+
+jc.ne10.uol.com.br
+
+ne10.uol.com.br
+
+tribunadonorte.com.br
+
+acritica.com
+
+############################################################
+# ECONOMIA / NEGÓCIOS
+############################################################
+infomoney.com.br
+moneytimes.com.br
+investing.com
+investing.com.br
+valorinveste.globo.com
+exame.com
+istoedinheiro.com.br
+seudinheiro.com
+bloomberglinea.com.br
+
+############################################################
+# TECNOLOGIA
+############################################################
+tecmundo.com.br
+canaltech.com.br
+olhardigital.com.br
+adrenaline.com.br
+hardware.com.br
+techtudo.com.br
+
+############################################################
+# INTERNACIONAL
+############################################################
+cnn.com
+bbc.com
+bbc.co.uk
+bbcnews.com
+
+reuters.com
+
+apnews.com
+
+nytimes.com
+
+washingtonpost.com
+
+theguardian.com
+
+wsj.com
+
+forbes.com
+
+bloomberg.com
+
+economist.com
+
+time.com
+
+abcnews.go.com
+
+nbcnews.com
+
+cbsnews.com
+
+foxnews.com
+
+usatoday.com
+
+############################################################
+# TECNOLOGIA INTERNACIONAL
+############################################################
+theverge.com
+techcrunch.com
+wired.com
+arstechnica.com
+engadget.com
+tomshardware.com
+zdnet.com
+cnet.com
+gizmodo.com
+
+############################################################
+# NEGÓCIOS / MERCADO
+############################################################
+marketwatch.com
+finance.yahoo.com
+cnbc.com
+
+############################################################
+# ESPORTES
+############################################################
+espn.com
+espn.com.br
+goal.com
+skysports.com
+lance.com.br
+
+############################################################
+# AGÊNCIAS DE NOTÍCIAS
+############################################################
+afp.com
+efe.com
+ansa.it
+
+############################################################
+# REVISTAS
+############################################################
+veja.abril.com.br
+super.abril.com.br
+exame.com
+epoca.globo.com
+
+############################################################
+# NOTÍCIAS REGIONAIS
+############################################################
+jornaldocommercio.com
+acidadeon.com
+bahianoticias.com.br
+midiamax.uol.com.br
+clickpb.com.br
+paraibaonline.com.br
+
+############################################################
+# CDNs E NECESSÁRIOS
+############################################################
+cloudflare.com
+cloudfront.net
+akamaihd.net
+akamaized.net
+fastly.net
+gstatic.com
+googleapis.com
+googleusercontent.com
