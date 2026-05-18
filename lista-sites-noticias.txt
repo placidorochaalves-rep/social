@@ -1,14 +1,12 @@
 ############################################################
-# ENTERPRISE BLACKLIST - NOTÍCIAS (BANK SAFE FINAL)
+# ENTERPRISE BLACKLIST - NOTÍCIAS (ULTRA SAFE)
 # Pi-hole / AdGuard / Technitium / NextDNS
 #
 # ✔ Bloqueia:
 # - Sites de notícias
 # - Google News
-# - Google Discover
-# - AMP
+# - AMP News Cache
 # - Apple News
-# - MSN News
 # - Yahoo News
 #
 # ✔ NÃO quebra:
@@ -16,11 +14,12 @@
 # - Nubank
 # - Inter
 # - Itaú
-# - BB
+# - Banco do Brasil
 # - Android
-# - iPhone
-# - Play Store
+# - iOS
 # - Google
+# - WebView
+# - MFA
 ############################################################
 
 ############################################################
@@ -252,14 +251,13 @@ ansa.it
 dw.com
 
 ############################################################
-# GOOGLE NEWS / DISCOVER
+# GOOGLE NEWS
 ############################################################
 
 news.google.com
 google-news.com
 news.url.google.com
 news.gstatic.com
-discover.google.com
 
 ############################################################
 # AMP
@@ -270,25 +268,11 @@ cdn.ampproject.org
 googleweblight.com
 
 ############################################################
-# GOOGLE FEED
-############################################################
-
-suggestqueries.google.com
-ogs.google.com
-
-############################################################
 # APPLE NEWS
 ############################################################
 
 apple.news
 news-assets.apple.com
-
-############################################################
-# MICROSOFT NEWS
-############################################################
-
-msn.com
-start.com
 
 ############################################################
 # YAHOO NEWS
