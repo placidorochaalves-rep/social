@@ -1,183 +1,213 @@
 #################################################
-# WHITELIST CORPORATIVA - REDES SOCIAIS COMPLETA
-# Inclui: Social + Mensageria + YouTube completo
+# BLACKLIST COMPLETA
+# WEB + ANDROID + APPS + CDN + DNS
+# Redes Sociais | Streaming | Mensageria
+# Uso: Pi-hole / AdGuard / DNS Sinkhole
 #################################################
 
-############################
-# META (FACEBOOK)
-############################
-facebook.com
-m.facebook.com
-fb.com
-fbcdn.net
-fbsbx.com
-messenger.com
-
-############################
-# INSTAGRAM / THREADS
-############################
-instagram.com
-cdninstagram.com
-threads.net
-
-############################
-# X (TWITTER)
-############################
-x.com
-twitter.com
-t.co
-twimg.com
-
-############################
-# TIKTOK
-############################
-tiktok.com
-tiktokcdn.com
-tiktokv.com
-byteoversea.com
-musical.ly
-
-############################
-# LINKEDIN
-############################
-linkedin.com
-licdn.com
-
-############################
-# SNAPCHAT
-############################
-snapchat.com
-snapchat-cdn.com
-
-############################
-# REDDIT
-############################
-reddit.com
-redditstatic.com
-redd.it
-
-############################
-# PINTEREST
-############################
-pinterest.com
-pinimg.com
-
-############################
-# DISCORD
-############################
-discord.com
-discordapp.com
-discord.gg
-
-############################
-# TELEGRAM
-############################
-telegram.org
-web.telegram.org
-t.me
-
-############################
-# WHATSAPP
-############################
-whatsapp.com
-web.whatsapp.com
-whatsapp.net
-static.whatsapp.net
-
-############################
-# KWAI
-############################
-kwai.com
-kwai-video.com
-kwai.net
-
-############################
-# TWITCH
-############################
-twitch.tv
-ttvnw.net
-
-############################
-# VIMEO
-############################
-vimeo.com
-vimeocdn.com
-
-############################
-# WECHAT
-############################
-wechat.com
-weixin.qq.com
-
-############################
-# OUTROS SOCIAIS
-############################
-quora.com
-medium.com
-tumblr.com
-vk.com
-badoo.com
-ok.ru
-
 #################################################
-# YOUTUBE - BLOCO COMPLETO (CRÍTICO)
+# YOUTUBE
 #################################################
-
-############################
-# DOMÍNIOS PRINCIPAIS
-############################
 youtube.com
 www.youtube.com
 m.youtube.com
 music.youtube.com
 studio.youtube.com
 youtu.be
-
-############################
-# APIS / PLAYER
-############################
 youtubei.googleapis.com
 youtube.googleapis.com
 s.youtube.com
 www.youtube-nocookie.com
-
-############################
-# CDN DE VÍDEO (CRÍTICO)
-############################
 googlevideo.com
-*.googlevideo.com
-
-############################
-# IMAGENS / THUMBNAILS
-############################
 ytimg.com
 i.ytimg.com
 s.ytimg.com
 yt3.ggpht.com
-
-############################
-# GOOGLE CORE (NECESSÁRIO PARA FUNCIONAMENTO)
-############################
-google.com
-gstatic.com
-googleapis.com
-googleusercontent.com
-lh3.googleusercontent.com
-
-############################
-# STREAMING / FEATURES
-############################
-youtube.com/shorts
-youtube.com/live
-youtube.com/watch
-youtube.com/api
-youtube.com/youtubei
-youtube.com/get_video_info
-youtube.com/ptracking
-youtube.com/api/stats
-
-############################
-# CDN AUXILIAR
-############################
 redirector.googlevideo.com
+
+#################################################
+# FACEBOOK / META
+#################################################
+facebook.com
+fb.com
+fbcdn.net
+fbsbx.com
+messenger.com
+m.facebook.com
+touch.facebook.com
+
+#################################################
+# INSTAGRAM
+#################################################
+instagram.com
+cdninstagram.com
+ig.me
+graph.instagram.com
+
+#################################################
+# THREADS
+#################################################
+threads.net
+
+
+#################################################
+# TIKTOK
+#################################################
+tiktok.com
+tiktokcdn.com
+tiktokv.com
+byteoversea.com
+ibyteimg.com
+musical.ly
+
+#################################################
+# X / TWITTER
+#################################################
+x.com
+twitter.com
+t.co
+twimg.com
+pbs.twimg.com
+
+#################################################
+# SNAPCHAT
+#################################################
+snapchat.com
+snapchat-cdn.com
+
+#################################################
+# LINKEDIN
+#################################################
+linkedin.com
+licdn.com
+
+#################################################
+# REDDIT
+#################################################
+reddit.com
+redditstatic.com
+redd.it
+
+#################################################
+# PINTEREST
+#################################################
+pinterest.com
+pinimg.com
+
+#################################################
+# KWAI
+#################################################
+kwai.com
+kwai-video.com
+kwai.net
+
+#################################################
+# TWITCH
+#################################################
+twitch.tv
+ttvnw.net
+jtvnw.net
+
+#################################################
+# VIMEO
+#################################################
+vimeo.com
+vimeocdn.com
+
+#################################################
+# NETFLIX
+#################################################
+netflix.com
+nflxvideo.net
+nflximg.net
+nflxext.com
+
+#################################################
+# PRIME VIDEO
+#################################################
+primevideo.com
+amazonvideo.com
+aiv-cdn.net
+
+#################################################
+# DISNEY+
+#################################################
+disneyplus.com
+bamgrid.com
+dssott.com
+
+#################################################
+# HBO MAX / MAX
+#################################################
+max.com
+hbomax.com
+
+#################################################
+# GLOBOPLAY
+#################################################
+globoplay.globo.com
+globo.com
+
+#################################################
+# SPOTIFY
+#################################################
+spotify.com
+scdn.co
+audio-ak.spotify.com
+
+#################################################
+# DEEZER
+#################################################
+deezer.com
+dzcdn.net
+
+#################################################
+# SOUNDCLOUD
+#################################################
+soundcloud.com
+
+#################################################
+# TIDAL
+#################################################
+tidal.com
+
+#################################################
+# APPLE STREAMING
+#################################################
+music.apple.com
+tv.apple.com
+
+#################################################
+# GOOGLE PLAY / ANDROID SOCIAL
+#################################################
+play.google.com
+play.googleapis.com
+android.clients.google.com
+
+#################################################
+# APPLE APPSTORE SOCIAL
+#################################################
+apps.apple.com
+
+#################################################
+# DNS OVER HTTPS (BYPASS)
+#################################################
+dns.google
+cloudflare-dns.com
+mozilla.cloudflare-dns.com
+
+#################################################
+# CDN / MEDIA DELIVERY
+#################################################
+akamaihd.net
+akamaized.net
+fastly.net
+edgekey.net
+edgesuite.net
+
+#################################################
+# GOOGLE MEDIA
+#################################################
+googleusercontent.com
 ggpht.com
+gstatic.com
