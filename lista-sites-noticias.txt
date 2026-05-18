@@ -1,26 +1,8 @@
 ############################################################
-# ENTERPRISE BLACKLIST - CATEGORIA NOTÍCIAS
-# Cobertura:
-# ✔ Windows
-# ✔ Android
-# ✔ iOS
-# ✔ Linux
-# ✔ Navegadores
-# ✔ Apps Mobile
-# ✔ Apps Desktop
-# ✔ CDN
-# ✔ APIs
-# ✔ Push Notifications
-#
-# Compatível:
-# - Pi-hole
-# - AdGuard Home
-# - Technitium
-# - MikroTik DNS
-# - NextDNS
-# - pfSense
+# ENTERPRISE BLACKLIST - NOTÍCIAS ULTRA COMPLETA
+# WEB + ANDROID + IOS + WINDOWS + LINUX + APPS
+# Pi-hole / AdGuard / Technitium / NextDNS
 ############################################################
-
 
 ############################################################
 # BRASIL - PORTAIS PRINCIPAIS
@@ -28,34 +10,30 @@
 
 # GLOBO
 globo.com
+www.globo.com
 g1.globo.com
 oglobo.globo.com
 valor.globo.com
 extra.globo.com
+epoca.globo.com
+valorinveste.globo.com
 ge.globo.com
 video.globo.com
+globoplay.globo.com
+api.globo.com
 
 # UOL
 uol.com.br
+www.uol.com.br
 noticias.uol.com.br
 economia.uol.com.br
 esporte.uol.com.br
 bol.uol.com.br
-
-# TERRA
-terra.com.br
-terra.com
-
-# R7
-r7.com
-noticias.r7.com
-
-# IG
-ig.com.br
-
-############################################################
-# JORNAIS BRASIL
-############################################################
+universa.uol.com.br
+jc.ne10.uol.com.br
+ne10.uol.com.br
+midiamax.uol.com.br
+api.uol.com.br
 
 # FOLHA
 folha.uol.com.br
@@ -63,11 +41,30 @@ f5.folha.uol.com.br
 
 # ESTADÃO
 estadao.com.br
+www.estadao.com.br
 politica.estadao.com.br
 economia.estadao.com.br
+link.estadao.com.br
 
 # CNN BRASIL
 cnnbrasil.com.br
+www.cnnbrasil.com.br
+api.cnnbrasil.com.br
+
+# TERRA
+terra.com.br
+terra.com
+www.terra.com.br
+
+# R7
+r7.com
+www.r7.com
+noticias.r7.com
+recordtv.r7.com
+
+# IG
+ig.com.br
+www.ig.com.br
 
 # GAZETA DO POVO
 gazetadopovo.com.br
@@ -78,26 +75,40 @@ correiobraziliense.com.br
 # DIÁRIO DE PERNAMBUCO
 diariodepernambuco.com.br
 
-# JC / NE10
-jc.ne10.uol.com.br
-ne10.uol.com.br
+# JORNAL DO COMMERCIO
+jornaldocommercio.com
+
+# BAHIA NOTÍCIAS
+bahianoticias.com.br
+
+# CLICKPB
+clickpb.com.br
+
+# PARAÍBA ONLINE
+paraibaonline.com.br
+
+# ACIDADEON
+acidadeon.com
 
 ############################################################
-# ECONOMIA / NEGÓCIOS
+# ECONOMIA / FINANÇAS
 ############################################################
 
 infomoney.com.br
 moneytimes.com.br
 investing.com
 investing.com.br
-valorinveste.globo.com
 exame.com
 istoedinheiro.com.br
 seudinheiro.com
 bloomberglinea.com.br
+suno.com.br
+tradingview.com
+valor.globo.com
+valorinveste.globo.com
 
 ############################################################
-# TECNOLOGIA
+# TECNOLOGIA BRASIL
 ############################################################
 
 tecmundo.com.br
@@ -106,6 +117,7 @@ olhardigital.com.br
 adrenaline.com.br
 hardware.com.br
 techtudo.com.br
+tecnoblog.net
 
 ############################################################
 # INTERNACIONAL
@@ -113,19 +125,21 @@ techtudo.com.br
 
 # CNN
 cnn.com
+edition.cnn.com
 
 # BBC
 bbc.com
 bbc.co.uk
 bbcnews.com
+bbc.in
 
 # REUTERS
 reuters.com
 
-# AP
+# ASSOCIATED PRESS
 apnews.com
 
-# NY TIMES
+# NEW YORK TIMES
 nytimes.com
 
 # WASHINGTON POST
@@ -164,6 +178,18 @@ foxnews.com
 # USA TODAY
 usatoday.com
 
+# NEWSWEEK
+newsweek.com
+
+# SKY NEWS
+news.sky.com
+
+# DAILY MAIL
+dailymail.co.uk
+
+# AL JAZEERA
+aljazeera.com
+
 ############################################################
 # TECNOLOGIA INTERNACIONAL
 ############################################################
@@ -177,17 +203,21 @@ tomshardware.com
 zdnet.com
 cnet.com
 gizmodo.com
+venturebeat.com
+xda-developers.com
 
 ############################################################
-# NEGÓCIOS / FINANÇAS
+# NEGÓCIOS / MERCADO
 ############################################################
 
 marketwatch.com
 finance.yahoo.com
 cnbc.com
+fortune.com
+businessinsider.com
 
 ############################################################
-# ESPORTES
+# ESPORTES / SPORTS NEWS
 ############################################################
 
 espn.com
@@ -195,6 +225,7 @@ espn.com.br
 goal.com
 skysports.com
 lance.com.br
+onefootball.com
 
 ############################################################
 # AGÊNCIAS DE NOTÍCIAS
@@ -203,6 +234,8 @@ lance.com.br
 afp.com
 efe.com
 ansa.it
+dw.com
+sputniknews.com
 
 ############################################################
 # REVISTAS
@@ -210,27 +243,108 @@ ansa.it
 
 veja.abril.com.br
 super.abril.com.br
-epoca.globo.com
+quatrorodas.abril.com.br
+claudia.abril.com.br
 
 ############################################################
-# REGIONAIS
+# GOOGLE NEWS / DISCOVER / AMP
 ############################################################
 
-jornaldocommercio.com
-acidadeon.com
-bahianoticias.com.br
-midiamax.uol.com.br
-clickpb.com.br
-paraibaonline.com.br
+news.google.com
+google-news.com
+news.url.google.com
+news.gstatic.com
+discover.google.com
+ampproject.org
+cdn.ampproject.org
+googleweblight.com
 
 ############################################################
-# APPS / PUSH / TELEMETRIA
+# APPLE NEWS
+############################################################
+
+apple.news
+news-assets.apple.com
+
+############################################################
+# MICROSOFT NEWS
+############################################################
+
+msn.com
+assets.msn.com
+api.msn.com
+start.com
+
+############################################################
+# YAHOO NEWS
+############################################################
+
+news.yahoo.com
+finance.yahoo.com
+
+############################################################
+# OPINIÃO / BLOGS / MÉDIA
+############################################################
+
+medium.com
+substack.com
+blogspot.com
+wordpress.com
+tumblr.com
+
+############################################################
+# PUSH / TELEMETRIA
 ############################################################
 
 firebaseio.com
 firebaseinstallations.googleapis.com
+firebaselogging.googleapis.com
 fcm.googleapis.com
 onesignal.com
+app-measurement.com
+
+############################################################
+# GOOGLE CONNECTIVITY / WEBVIEW
+############################################################
+
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients.l.google.com
+
+############################################################
+# GOOGLE SAFE BROWSING
+############################################################
+
+safebrowsing.googleapis.com
+
+############################################################
+# GOOGLE PLAY SERVICES
+############################################################
+
+android.clients.google.com
+android.googleapis.com
+mtalk.google.com
+play.googleapis.com
+play.google.com
+
+############################################################
+# APPLE PRIVATE RELAY
+############################################################
+
+mask.icloud.com
+mask-h2.icloud.com
+icloud-private-relay.apple.com
+mask-api.icloud.com
+
+############################################################
+# APPLE PUSH
+############################################################
+
+push.apple.com
+courier.push.apple.com
 
 ############################################################
 # CDN / MEDIA DELIVERY
@@ -249,6 +363,7 @@ cdn.cloudflare.net
 ############################################################
 
 googleusercontent.com
+googleusercontent.cn
 gstatic.com
 googleapis.com
 
@@ -257,17 +372,20 @@ googleapis.com
 ############################################################
 
 amazonaws.com
+media-amazon.com
 
 ############################################################
-# DNS BYPASS / DoH
+# DNS OVER HTTPS / BYPASS
 ############################################################
 
 dns.google
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
-dns.quad9.net
 dns.adguard.com
 dns.nextdns.io
+dns.opendns.com
+dns.quad9.net
+chrome.cloudflare-dns.com
 
 ############################################################
 # DNS OVER TLS
@@ -281,11 +399,13 @@ dns9.quad9.net
 ############################################################
 
 quic.google.com
-googleweblight.com
 
 ############################################################
 # WEBRTC / RTC
 ############################################################
 
 stun.l.google.com
+stun1.l.google.com
+stun2.l.google.com
+stun3.l.google.com
 turn.googleapis.com
