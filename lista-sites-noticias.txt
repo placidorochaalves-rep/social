@@ -1,5 +1,5 @@
 ############################################################
-# ENTERPRISE BLACKLIST - NOTÍCIAS ULTRA COMPLETA
+# ENTERPRISE BLACKLIST - NOTÍCIAS MASTER
 # WEB + ANDROID + IOS + WINDOWS + LINUX + APPS
 # Pi-hole / AdGuard / Technitium / NextDNS
 ############################################################
@@ -72,29 +72,20 @@ www.ig.com.br
 # REVISTAS / OPINIÃO / POLÍTICA
 ############################################################
 
-# VEJA
 veja.abril.com.br
 veja.com.br
 abril.com.br
 
-# REVISTA OESTE
 revistaoeste.com
 www.revistaoeste.com
 
-# CARTA CAPITAL
 cartacapital.com.br
-
-# ISTOÉ
 istoe.com.br
 
-# O ANTAGONISTA
 oantagonista.com.br
 crusoe.com.br
 
-# BRASIL 247
 brasil247.com
-
-# PODER360
 poder360.com.br
 
 ############################################################
@@ -103,15 +94,19 @@ poder360.com.br
 
 gazetadopovo.com.br
 correiobraziliense.com.br
+
 diariodepernambuco.com.br
 www.diariodepernambuco.com.br
+
 jornaldocommercio.com
 bahianoticias.com.br
 clickpb.com.br
 paraibaonline.com.br
 acidadeon.com
+
 em.com.br
 www.em.com.br
+
 opovo.com.br
 atarde.com.br
 gazetaweb.com
@@ -158,16 +153,13 @@ www.tuasaude.com
 # TV / MÍDIA
 ############################################################
 
-# SBT
 sbt.com.br
 sbtnews.sbt.com.br
 www.sbt.com.br
 
-# BAND
 band.uol.com.br
 bandnewsfm.com.br
 
-# JOVEM PAN
 jovempan.com.br
 jpnews.com.br
 
@@ -181,6 +173,7 @@ a.espncdn.com
 espncdn.com
 secure.espn.com
 insider.espn.com
+
 goal.com
 skysports.com
 lance.com.br
@@ -255,14 +248,26 @@ dw.com
 sputniknews.com
 
 ############################################################
-# GOOGLE NEWS / DISCOVER / AMP
+# GOOGLE NEWS / DISCOVER / FEED
 ############################################################
 
 news.google.com
 google-news.com
 news.url.google.com
 news.gstatic.com
+
 discover.google.com
+
+google.com
+www.google.com
+
+suggestqueries.google.com
+ogs.google.com
+
+############################################################
+# AMP / CACHE
+############################################################
+
 ampproject.org
 cdn.ampproject.org
 googleweblight.com
@@ -303,6 +308,36 @@ tumblr.com
 flipboard.com
 
 ############################################################
+# GOOGLE APP / ASSISTANT
+############################################################
+
+assistant.google.com
+app.google.com
+lens.google.com
+
+############################################################
+# GOOGLE CLIENTS
+############################################################
+
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+clients.l.google.com
+
+############################################################
+# GOOGLE PLAY / ANDROID
+############################################################
+
+android.clients.google.com
+android.googleapis.com
+play.googleapis.com
+play.google.com
+mtalk.google.com
+
+############################################################
 # PUSH / TELEMETRIA
 ############################################################
 
@@ -314,31 +349,34 @@ onesignal.com
 app-measurement.com
 
 ############################################################
-# GOOGLE CONNECTIVITY / WEBVIEW
+# SAFE BROWSING / CONTENT
+############################################################
+
+safebrowsing.googleapis.com
+content.googleapis.com
+
+############################################################
+# CONNECTIVITY / WEBVIEW
 ############################################################
 
 connectivitycheck.gstatic.com
 connectivitycheck.android.com
-clients3.google.com
-clients4.google.com
-clients5.google.com
-clients.l.google.com
 
 ############################################################
-# GOOGLE SAFE BROWSING
+# GOOGLE VIDEO / MEDIA
 ############################################################
 
-safebrowsing.googleapis.com
+youtube.com
+youtubei.googleapis.com
+googlevideo.com
+ytimg.com
 
 ############################################################
-# GOOGLE PLAY SERVICES
+# WINDOWS / EDGE / CHROME
 ############################################################
 
-android.clients.google.com
-android.googleapis.com
-mtalk.google.com
-play.googleapis.com
-play.google.com
+chrome.googleapis.com
+edge.microsoft.com
 
 ############################################################
 # APPLE PRIVATE RELAY
@@ -376,6 +414,7 @@ googleusercontent.com
 googleusercontent.cn
 gstatic.com
 googleapis.com
+ggpht.com
 
 ############################################################
 # AMAZON CDN
