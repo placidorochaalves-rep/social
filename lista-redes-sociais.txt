@@ -1,6 +1,6 @@
 #################################################
-# WHITELIST - REDES SOCIAIS
-# Uso corporativo - TI
+# WHITELIST CORPORATIVA - REDES SOCIAIS COMPLETA
+# Inclui: Social + Mensageria + YouTube completo
 #################################################
 
 ############################
@@ -37,20 +37,10 @@ byteoversea.com
 musical.ly
 
 ############################
-# GOOGLE / YOUTUBE SOCIAL
-############################
-youtube.com
-youtu.be
-ytimg.com
-googlevideo.com
-youtubei.googleapis.com
-
-############################
 # LINKEDIN
 ############################
 linkedin.com
 licdn.com
-linkedin.cn
 
 ############################
 # SNAPCHAT
@@ -71,16 +61,37 @@ redd.it
 pinterest.com
 pinimg.com
 
+############################
+# DISCORD
+############################
+discord.com
+discordapp.com
+discord.gg
 
 ############################
-# KWAI (POPULAR BR)
+# TELEGRAM
+############################
+telegram.org
+web.telegram.org
+t.me
+
+############################
+# WHATSAPP
+############################
+whatsapp.com
+web.whatsapp.com
+whatsapp.net
+static.whatsapp.net
+
+############################
+# KWAI
 ############################
 kwai.com
 kwai-video.com
 kwai.net
 
 ############################
-# TWITCH (LIVE SOCIAL)
+# TWITCH
 ############################
 twitch.tv
 ttvnw.net
@@ -92,13 +103,13 @@ vimeo.com
 vimeocdn.com
 
 ############################
-# WECHAT (SOCIAL CHINA)
+# WECHAT
 ############################
 wechat.com
 weixin.qq.com
 
 ############################
-# OUTROS SOCIAIS / COMUNIDADES
+# OUTROS SOCIAIS
 ############################
 quora.com
 medium.com
@@ -106,3 +117,66 @@ tumblr.com
 vk.com
 badoo.com
 ok.ru
+
+#################################################
+# YOUTUBE - BLOCO COMPLETO (CRÍTICO)
+#################################################
+
+############################
+# DOMÍNIOS PRINCIPAIS
+############################
+youtube.com
+www.youtube.com
+m.youtube.com
+music.youtube.com
+studio.youtube.com
+youtu.be
+
+############################
+# APIS / PLAYER
+############################
+youtubei.googleapis.com
+youtube.googleapis.com
+s.youtube.com
+www.youtube-nocookie.com
+
+############################
+# CDN DE VÍDEO (CRÍTICO)
+############################
+googlevideo.com
+*.googlevideo.com
+
+############################
+# IMAGENS / THUMBNAILS
+############################
+ytimg.com
+i.ytimg.com
+s.ytimg.com
+yt3.ggpht.com
+
+############################
+# GOOGLE CORE (NECESSÁRIO PARA FUNCIONAMENTO)
+############################
+google.com
+gstatic.com
+googleapis.com
+googleusercontent.com
+lh3.googleusercontent.com
+
+############################
+# STREAMING / FEATURES
+############################
+youtube.com/shorts
+youtube.com/live
+youtube.com/watch
+youtube.com/api
+youtube.com/youtubei
+youtube.com/get_video_info
+youtube.com/ptracking
+youtube.com/api/stats
+
+############################
+# CDN AUXILIAR
+############################
+redirector.googlevideo.com
+ggpht.com
