@@ -1,17 +1,20 @@
 ############################################################
-# ENTERPRISE BLACKLIST - MÚSICA / ÁUDIO / PODCAST (FULL)
-# WEB + APP + ANDROID + IOS + WINDOWS + LINUX
+# ENTERPRISE BLACKLIST - STREAMING MASTER
+# MÚSICA + VÍDEO + PODCAST + RÁDIO
+#
+# WEB + APP + SMART TV + ANDROID + IOS + WINDOWS
 # Pi-hole / AdGuard / Technitium / NextDNS
 #
 # ✔ Bloqueio completo:
-# - Streaming
-# - Apps Desktop
-# - Apps Mobile
+# - Spotify
+# - Netflix
+# - Prime Video
+# - Disney+
+# - HBO Max
+# - YouTube
+# - Twitch
 # - Podcasts
 # - Rádio Online
-# - Letras
-# - APIs
-# - CDN dedicada
 #
 # ✔ SAFE:
 # - WhatsApp
@@ -19,6 +22,8 @@
 # - Discord
 # - Bancos
 # - MFA
+# - Android
+# - iOS
 ############################################################
 
 ############################################################
@@ -95,16 +100,21 @@ music.amazon.com.br
 amazonmusic.com
 
 ############################################################
-# YOUTUBE MUSIC
+# YOUTUBE / YOUTUBE MUSIC
 ############################################################
 
-music.youtube.com
 youtube.com
 www.youtube.com
 m.youtube.com
+music.youtube.com
 youtu.be
+
 youtubei.googleapis.com
 youtube.googleapis.com
+
+googlevideo.com
+redirector.googlevideo.com
+
 ytimg.com
 i.ytimg.com
 s.ytimg.com
@@ -165,7 +175,7 @@ last.fm
 www.last.fm
 
 ############################################################
-# GENIUS / LETRAS
+# LETRAS / CIFRAS
 ############################################################
 
 genius.com
@@ -241,10 +251,164 @@ palcomp3.com
 suamusica.com.br
 
 ############################################################
+# NETFLIX
+############################################################
+
+netflix.com
+www.netflix.com
+signup.netflix.com
+help.netflix.com
+
+nflxvideo.net
+nflximg.net
+nflximg.com
+nflxext.com
+nflxso.net
+
+netflix.net
+netflixdnstest0.com
+netflixdnstest1.com
+netflixdnstest2.com
+netflixdnstest3.com
+netflixdnstest4.com
+netflixdnstest5.com
+netflixdnstest6.com
+netflixdnstest7.com
+netflixdnstest8.com
+netflixdnstest9.com
+
+############################################################
+# PRIME VIDEO
+############################################################
+
+primevideo.com
+www.primevideo.com
+
+amazonvideo.com
+www.amazonvideo.com
+
+aiv-cdn.net
+aiv-delivery.net
+atv-ps.amazon.com
+fls-na.amazon.com
+
+############################################################
+# DISNEY+
+############################################################
+
+disneyplus.com
+www.disneyplus.com
+
+bamgrid.com
+dssott.com
+disney-plus.net
+
+############################################################
+# HBO MAX / MAX
+############################################################
+
+max.com
+www.max.com
+
+hbomax.com
+www.hbomax.com
+
+############################################################
+# PARAMOUNT+
+############################################################
+
+paramountplus.com
+www.paramountplus.com
+
+############################################################
+# STAR+
+############################################################
+
+starplus.com
+www.starplus.com
+
+############################################################
+# GLOBOPLAY
+############################################################
+
+globoplay.globo.com
+globosatplay.globo.com
+
+############################################################
+# APPLE TV+
+############################################################
+
+tv.apple.com
+
+############################################################
+# TWITCH
+############################################################
+
+twitch.tv
+www.twitch.tv
+
+ttvnw.net
+jtvnw.net
+
+############################################################
+# VIMEO
+############################################################
+
+vimeo.com
+player.vimeo.com
+vimeocdn.com
+
+############################################################
+# DAILYMOTION
+############################################################
+
+dailymotion.com
+
+############################################################
+# CRUNCHYROLL
+############################################################
+
+crunchyroll.com
+vrv.co
+
+############################################################
+# PLEX
+############################################################
+
+plex.tv
+
+############################################################
+# KODI
+############################################################
+
+kodi.tv
+
+############################################################
+# TELECINE
+############################################################
+
+telecineplay.com.br
+
+############################################################
+# SMART TV STREAMING
+############################################################
+
+androidtvchannels-pa.googleapis.com
+
+############################################################
 # WEB PLAYERS
 ############################################################
 
-open.spotify.com
+player.netflix.com
+player.vimeo.com
 music.youtube.com
-music.apple.com
-listen.tidal.com
+
+############################################################
+# CDN DEDICADA STREAMING
+############################################################
+
+nflxvideo.net
+nflximg.net
+aiv-cdn.net
+bamgrid.com
+vimeocdn.com
