@@ -1,21 +1,23 @@
 ############################################################
-# ENTERPRISE BLACKLIST - NOTÍCIAS (SAFE FINAL)
-# Compatível com:
-# ✔ Android
-# ✔ iPhone/iOS
-# ✔ Windows
-# ✔ Linux
-# ✔ Apps Bancários
-# ✔ Google Login
-# ✔ Play Store
-# ✔ WebView
-# ✔ MFA / 2FA
+# ENTERPRISE BLACKLIST - NOTÍCIAS (ESTÁVEL FINAL)
+# Pi-hole / AdGuard / Technitium / NextDNS
 #
-# Compatível:
-# - Pi-hole
-# - AdGuard Home
-# - Technitium
-# - NextDNS
+# ✔ Bloqueia:
+# - Sites de notícias
+# - Google News
+# - Google Discover
+# - AMP Cache
+# - Apple News
+# - MSN News
+# - Yahoo News
+#
+# ✔ NÃO quebra:
+# - Internet Android/iOS
+# - Google Search
+# - Apps bancários
+# - Play Store
+# - Login Google
+# - WebView
 ############################################################
 
 ############################################################
@@ -262,7 +264,6 @@ news.google.com
 google-news.com
 news.url.google.com
 news.gstatic.com
-
 discover.google.com
 
 ampproject.org
@@ -317,13 +318,6 @@ fcm.googleapis.com
 onesignal.com
 
 ############################################################
-# CONNECTIVITY
-############################################################
-
-connectivitycheck.gstatic.com
-connectivitycheck.android.com
-
-############################################################
 # APPLE PRIVATE RELAY
 ############################################################
 
@@ -331,27 +325,3 @@ mask.icloud.com
 mask-h2.icloud.com
 icloud-private-relay.apple.com
 mask-api.icloud.com
-
-############################################################
-# DNS OVER HTTPS
-############################################################
-
-dns.google
-cloudflare-dns.com
-mozilla.cloudflare-dns.com
-dns.adguard.com
-dns.nextdns.io
-dns.opendns.com
-dns.quad9.net
-
-############################################################
-# DNS OVER TLS
-############################################################
-
-one.one.one.one
-
-############################################################
-# QUIC
-############################################################
-
-quic.google.com
