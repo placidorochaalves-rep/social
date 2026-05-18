@@ -1,68 +1,91 @@
 ############################################################
-# WHITELIST COMPLETA - SITES DE NOTÍCIAS
-# BRASIL + INTERNACIONAL
+# ENTERPRISE BLACKLIST - CATEGORIA NOTÍCIAS
+# Cobertura:
+# ✔ Windows
+# ✔ Android
+# ✔ iOS
+# ✔ Linux
+# ✔ Navegadores
+# ✔ Apps Mobile
+# ✔ Apps Desktop
+# ✔ CDN
+# ✔ APIs
+# ✔ Push Notifications
+#
 # Compatível:
 # - Pi-hole
 # - AdGuard Home
 # - Technitium
 # - MikroTik DNS
+# - NextDNS
 # - pfSense
 ############################################################
+
 
 ############################################################
 # BRASIL - PORTAIS PRINCIPAIS
 ############################################################
+
+# GLOBO
 globo.com
 g1.globo.com
-ge.globo.com
-valor.globo.com
 oglobo.globo.com
+valor.globo.com
 extra.globo.com
+ge.globo.com
+video.globo.com
 
+# UOL
 uol.com.br
 noticias.uol.com.br
 economia.uol.com.br
 esporte.uol.com.br
+bol.uol.com.br
 
+# TERRA
 terra.com.br
 terra.com
 
+# R7
 r7.com
 noticias.r7.com
 
+# IG
 ig.com.br
-
-bol.uol.com.br
 
 ############################################################
 # JORNAIS BRASIL
 ############################################################
+
+# FOLHA
 folha.uol.com.br
 f5.folha.uol.com.br
 
+# ESTADÃO
 estadao.com.br
 politica.estadao.com.br
 economia.estadao.com.br
 
+# CNN BRASIL
 cnnbrasil.com.br
 
+# GAZETA DO POVO
 gazetadopovo.com.br
 
+# CORREIO BRAZILIENSE
 correiobraziliense.com.br
 
+# DIÁRIO DE PERNAMBUCO
 diariodepernambuco.com.br
 
+# JC / NE10
 jc.ne10.uol.com.br
-
 ne10.uol.com.br
-
-tribunadonorte.com.br
-
-acritica.com
 
 ############################################################
 # ECONOMIA / NEGÓCIOS
 ############################################################
+
 infomoney.com.br
 moneytimes.com.br
 investing.com
@@ -76,6 +99,7 @@ bloomberglinea.com.br
 ############################################################
 # TECNOLOGIA
 ############################################################
+
 tecmundo.com.br
 canaltech.com.br
 olhardigital.com.br
@@ -86,44 +110,64 @@ techtudo.com.br
 ############################################################
 # INTERNACIONAL
 ############################################################
+
+# CNN
 cnn.com
+
+# BBC
 bbc.com
 bbc.co.uk
 bbcnews.com
 
+# REUTERS
 reuters.com
 
+# AP
 apnews.com
 
+# NY TIMES
 nytimes.com
 
+# WASHINGTON POST
 washingtonpost.com
 
+# THE GUARDIAN
 theguardian.com
 
+# WALL STREET JOURNAL
 wsj.com
 
+# FORBES
 forbes.com
 
+# BLOOMBERG
 bloomberg.com
 
+# ECONOMIST
 economist.com
 
+# TIME
 time.com
 
+# ABC
 abcnews.go.com
 
+# NBC
 nbcnews.com
 
+# CBS
 cbsnews.com
 
+# FOX
 foxnews.com
 
+# USA TODAY
 usatoday.com
 
 ############################################################
 # TECNOLOGIA INTERNACIONAL
 ############################################################
+
 theverge.com
 techcrunch.com
 wired.com
@@ -135,8 +179,9 @@ cnet.com
 gizmodo.com
 
 ############################################################
-# NEGÓCIOS / MERCADO
+# NEGÓCIOS / FINANÇAS
 ############################################################
+
 marketwatch.com
 finance.yahoo.com
 cnbc.com
@@ -144,6 +189,7 @@ cnbc.com
 ############################################################
 # ESPORTES
 ############################################################
+
 espn.com
 espn.com.br
 goal.com
@@ -153,6 +199,7 @@ lance.com.br
 ############################################################
 # AGÊNCIAS DE NOTÍCIAS
 ############################################################
+
 afp.com
 efe.com
 ansa.it
@@ -160,14 +207,15 @@ ansa.it
 ############################################################
 # REVISTAS
 ############################################################
+
 veja.abril.com.br
 super.abril.com.br
-exame.com
 epoca.globo.com
 
 ############################################################
-# NOTÍCIAS REGIONAIS
+# REGIONAIS
 ############################################################
+
 jornaldocommercio.com
 acidadeon.com
 bahianoticias.com.br
@@ -176,13 +224,68 @@ clickpb.com.br
 paraibaonline.com.br
 
 ############################################################
-# CDNs E NECESSÁRIOS
+# APPS / PUSH / TELEMETRIA
 ############################################################
-cloudflare.com
-cloudfront.net
+
+firebaseio.com
+firebaseinstallations.googleapis.com
+fcm.googleapis.com
+onesignal.com
+
+############################################################
+# CDN / MEDIA DELIVERY
+############################################################
+
 akamaihd.net
 akamaized.net
 fastly.net
+edgekey.net
+edgesuite.net
+cloudfront.net
+cdn.cloudflare.net
+
+############################################################
+# GOOGLE CDN / APIs
+############################################################
+
+googleusercontent.com
 gstatic.com
 googleapis.com
-googleusercontent.com
+
+############################################################
+# AMAZON CDN
+############################################################
+
+amazonaws.com
+
+############################################################
+# DNS BYPASS / DoH
+############################################################
+
+dns.google
+cloudflare-dns.com
+mozilla.cloudflare-dns.com
+dns.quad9.net
+dns.adguard.com
+dns.nextdns.io
+
+############################################################
+# DNS OVER TLS
+############################################################
+
+one.one.one.one
+dns9.quad9.net
+
+############################################################
+# QUIC / HTTP3
+############################################################
+
+quic.google.com
+googleweblight.com
+
+############################################################
+# WEBRTC / RTC
+############################################################
+
+stun.l.google.com
+turn.googleapis.com
