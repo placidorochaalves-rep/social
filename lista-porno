@@ -1,20 +1,19 @@
 ############################################################
-# ENTERPRISE BLACKLIST - ADULTO / PORNOGRAFIA
+# ENTERPRISE BLACKLIST - ADULTO / PORNOGRAFIA MASTER
 # BRASIL + INTERNACIONAL
 #
 # WEB + APP + ANDROID + IOS + WINDOWS + LINUX
 # Pi-hole / AdGuard / Technitium / NextDNS
 #
-# ✔ Bloqueio:
-# - Sites adultos
-# - Vídeos pornôs
+# ✔ Cobertura:
+# - Sites pornôs
+# - Vídeos adultos
 # - Câmeras ao vivo
-# - Conteúdo NSFW
 # - Apps adultos
-# - Hentai
-# - Fetiche
-# - Escort
-# - Privacy adulto
+# - OnlyFans / Privacy
+# - Escort / acompanhantes
+# - Hentai / NSFW
+# - CDN dedicada pornô
 #
 # ✔ SAFE:
 # - Bancos
@@ -25,36 +24,81 @@
 ############################################################
 
 ############################################################
-# MAIORES SITES ADULTOS
+# PORNHUB
 ############################################################
 
 pornhub.com
 www.pornhub.com
-phncdn.com
 pornhubpremium.com
+pornhub.org
+phncdn.com
+trafficjunky.net
+cdn77-pornhub.com
+static-hub.com
+
+############################################################
+# XVIDEOS
+############################################################
 
 xvideos.com
 www.xvideos.com
 xvideos-cdn.com
+flashservice.xvideos.com
+img-hw.xvideos-cdn.com
+static-hw.xvideos-cdn.com
+
+############################################################
+# XNXX
+############################################################
 
 xnxx.com
 www.xnxx.com
 
-redtube.com
-www.redtube.com
-
-youporn.com
-www.youporn.com
-
-tube8.com
-www.tube8.com
+############################################################
+# XHAMSTER
+############################################################
 
 xhamster.com
 www.xhamster.com
 xhcdn.com
+xhaccess.com
+
+############################################################
+# REDTUBE
+############################################################
+
+redtube.com
+www.redtube.com
+redtube.net.br
+www.redtube.net.br
+
+############################################################
+# YOUPORN
+############################################################
+
+youporn.com
+www.youporn.com
+
+############################################################
+# TUBE8
+############################################################
+
+tube8.com
+www.tube8.com
+
+############################################################
+# SPANKBANG
+############################################################
 
 spankbang.com
 www.spankbang.com
+
+############################################################
+# EROTIK / HD
+############################################################
+
+hqporner.com
+www.hqporner.com
 
 eporner.com
 www.eporner.com
@@ -62,57 +106,60 @@ www.eporner.com
 beeg.com
 www.beeg.com
 
-hqporner.com
-www.hqporner.com
-
 sunporno.com
 www.sunporno.com
-
-tnaflix.com
-www.tnaflix.com
-
-thumbzilla.com
-www.thumbzilla.com
-
-drtuber.com
-www.drtuber.com
-
-txxx.com
-www.txxx.com
 
 porn.com
 www.porn.com
 
+txxx.com
+www.txxx.com
+
 porntrex.com
 www.porntrex.com
 
+drtuber.com
+www.drtuber.com
+
+thumbzilla.com
+www.thumbzilla.com
+
+tnaflix.com
+www.tnaflix.com
+
 ############################################################
-# BRASIL
+# BRASIL / PORTUGUÊS
 ############################################################
 
-cameraprive.com
-www.cameraprive.com
+pornobrasil.com
+www.pornobrasil.com
 
-fatalmodel.com
-www.fatalmodel.com
+xvideosbrasil.com
+www.xvideosbrasil.com
 
-photoacompanhantes.com
-www.photoacompanhantes.com
+xvideos2.com.br
+www.xvideos2.com.br
 
-skokka.com
-www.skokka.com
+sexoquente.tv
+www.sexoquente.tv
 
-sexo.com
-www.sexo.com
+megaporno.net
+www.megaporno.net
 
-garotascomlocal.com
-www.garotascomlocal.com
+xnudes.com.br
+www.xnudes.com.br
 
-acompanhantes.com.br
-www.acompanhantes.com.br
+hardbrazil.com
+www.hardbrazil.com
 
-classificadosx.net
-www.classificadosx.net
+pornoreal.com.br
+www.pornoreal.com.br
+
+sexoadulto.com.br
+www.sexoadulto.com.br
+
+videosdesexo.blog.br
+www.videosdesexo.blog.br
 
 ############################################################
 # ONLYFANS / PRIVACY
@@ -132,6 +179,9 @@ www.manyvids.com
 
 justfor.fans
 www.justfor.fans
+
+fanvue.com
+www.fanvue.com
 
 ############################################################
 # CAMS / AO VIVO
@@ -165,6 +215,28 @@ streamate.com
 www.streamate.com
 
 ############################################################
+# ESCORT / ACOMPANHANTES
+############################################################
+
+fatalmodel.com
+www.fatalmodel.com
+
+photoacompanhantes.com
+www.photoacompanhantes.com
+
+garotascomlocal.com
+www.garotascomlocal.com
+
+acompanhantes.com.br
+www.acompanhantes.com.br
+
+classificadosx.net
+www.classificadosx.net
+
+skokka.com
+www.skokka.com
+
+############################################################
 # HENTAI / ANIME ADULTO
 ############################################################
 
@@ -186,13 +258,7 @@ www.gelbooru.com
 danbooru.donmai.us
 
 ############################################################
-# REDDIT NSFW
-############################################################
-
-redditnsfw.com
-
-############################################################
-# IMAGENS / GIFS ADULTOS
+# IMAGENS / GIFS
 ############################################################
 
 imagefap.com
@@ -205,7 +271,7 @@ sex.com
 www.sex.com
 
 ############################################################
-# TORRENTS / DOWNLOAD ADULTO
+# TORRENTS / DOWNLOAD
 ############################################################
 
 pornolab.net
@@ -219,46 +285,26 @@ pornmd.com
 www.pornmd.com
 
 ############################################################
-# APPS / CDN ADULTO
+# REDDIT NSFW
+############################################################
+
+redditnsfw.com
+
+############################################################
+# CDN / MEDIA
 ############################################################
 
 phncdn.com
-static-hub.com
 trafficjunky.net
+static-hub.com
 cdn77-pornhub.com
-xnxx-cdn.com
+xvideos-cdn.com
 xhcdn.com
 
 ############################################################
-# KEYWORDS ADULTOS (OPCIONAL)
-# USAR COMO REGEX NO PI-HOLE
-############################################################
-
-(^|\.)porn$
-(^|\.)sex$
-(^|\.)xxx$
-(^|\.)adult$
-(^|\.)cam$
-(^|\.)cams$
-(^|\.)escort$
-(^|\.)acompanhante$
-(^|\.)hentai$
-(^|\.)nsfw$
-
-############################################################
-# GOOGLE SAFESEARCH (OPCIONAL)
+# SAFE SEARCH (OPCIONAL)
 ############################################################
 
 forcesafesearch.google.com
-
-############################################################
-# BING SAFESEARCH (OPCIONAL)
-############################################################
-
-strict.bing.com
-
-############################################################
-# YOUTUBE RESTRICTED MODE (OPCIONAL)
-############################################################
-
 restrict.youtube.com
+strict.bing.com
