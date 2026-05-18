@@ -1,42 +1,53 @@
 ############################################################
-# ENTERPRISE BLACKLIST - APOSTAS / BETS / GAMBLING
-# ULTIMATE MASTER LIST
+# ENTERPRISE BLACKLIST - BETTING MASTER (CLEAN DNS SAFE)
+# SEM DNS GOOGLE / SEM BYPASS DE DNS
 #
-# BRASIL + INTERNACIONAL
-# WEB + APP + ANDROID + IOS + WINDOWS + LINUX
+# Foco:
+# ✔ Bloqueio real de apostas
+# ✔ Cobertura de apps mobile
+# ✔ Redirecionamento regional
+# ✔ CDN / API / login
 #
 # Compatível:
-# ✔ Pi-hole
-# ✔ AdGuard
-# ✔ Technitium
-# ✔ NextDNS
-# ✔ MikroTik DNS
-#
-# Cobertura:
-# ✔ Bets
-# ✔ Cassino
-# ✔ Poker
-# ✔ Crash Games
-# ✔ Slots
-# ✔ Fantasy
-# ✔ Loterias
-# ✔ Apostas esportivas
-# ✔ Apps Android/iOS
-# ✔ Streams
-# ✔ APIs
-# ✔ CDN
+# - Pi-hole
+# - AdGuard Home
+# - Technitium DNS
+# - NextDNS
 ############################################################
 
 ############################################################
-# BET365
+# BET365 (EXPANDIDO)
 ############################################################
 
 bet365.com
 www.bet365.com
 mobile.bet365.com
 members.bet365.com
+sports.bet365.com
+casino.bet365.com
 games.bet365.com
+live.bet365.com
+offers.bet365.com
+login.bet365.com
+identity.bet365.com
+auth.bet365.com
+api.bet365.com
+app.bet365.com
+cdn.bet365.com
+assets.bet365.com
+download.bet365.com
+
 bet365games.com
+bet365services.com
+bet365affiliates.com
+
+bet365.es
+bet365.it
+bet365.de
+bet365.dk
+bet365.com.au
+bet365.mx
+bet365.bet.br
 
 ############################################################
 # BETANO
@@ -45,6 +56,9 @@ bet365games.com
 betano.com
 www.betano.com
 br.betano.com
+api.betano.com
+sports.betano.com
+casino.betano.com
 
 ############################################################
 # SPORTINGBET
@@ -52,6 +66,8 @@ br.betano.com
 
 sportingbet.com
 www.sportingbet.com
+sports.sportingbet.com
+casino.sportingbet.com
 
 ############################################################
 # BETFAIR
@@ -60,6 +76,7 @@ www.sportingbet.com
 betfair.com
 www.betfair.com
 sports.betfair.com
+exchange.betfair.com
 
 ############################################################
 # PIXBET
@@ -67,13 +84,23 @@ sports.betfair.com
 
 pixbet.com
 www.pixbet.com
+api.pixbet.com
 
 ############################################################
 # SUPERBET
 ############################################################
 
+superbet.com
 superbet.bet.br
 www.superbet.bet.br
+sports.superbet.com
+
+############################################################
+# BETNACIONAL
+############################################################
+
+betnacional.com
+www.betnacional.com
 
 ############################################################
 # ESPORTES DA SORTE
@@ -88,13 +115,6 @@ www.esportesdasorte.com
 
 vai-de-bet.com
 www.vai-de-bet.com
-
-############################################################
-# BET NACIONAL
-############################################################
-
-betnacional.com
-www.betnacional.com
 
 ############################################################
 # NOVIBET
@@ -118,29 +138,14 @@ betsul.com
 www.betsul.com
 
 ############################################################
-# ESTRELA BET
-############################################################
-
-estrela.bet
-www.estrela.bet
-
-############################################################
-# BET7K
+# BET7K / F12 / BR
 ############################################################
 
 bet7k.com
 www.bet7k.com
 
-############################################################
-# F12 BET
-############################################################
-
 f12.bet
 www.f12.bet
-
-############################################################
-# BR4BET
-############################################################
 
 br4bet.com
 www.br4bet.com
@@ -153,21 +158,30 @@ luck.bet
 www.luck.bet
 
 ############################################################
-# BETPIX365
+# BETPIX
 ############################################################
 
 betpix365.com
 www.betpix365.com
 
 ############################################################
-# STAKE
+# STAKE / CRYPTO BET
 ############################################################
 
 stake.com
 www.stake.com
-stake.bet
 stake.games
+stake.bet
 stake.pet
+
+bc.game
+www.bc.game
+
+cloudbet.com
+www.cloudbet.com
+
+sportsbet.io
+www.sportsbet.io
 
 ############################################################
 # BLAZE
@@ -182,159 +196,80 @@ blaze-4.com
 blaze.com.br
 
 ############################################################
-# ROOBET
+# ROOBET / ROLLBIT / SHUFFLE
 ############################################################
 
 roobet.com
 www.roobet.com
 
-############################################################
-# ROLLBIT
-############################################################
-
 rollbit.com
 www.rollbit.com
 
-############################################################
-# SHUFFLE
-############################################################
-
 shuffle.com
 www.shuffle.com
-
-############################################################
-# RAINBET
-############################################################
 
 rainbet.com
 www.rainbet.com
 
 ############################################################
-# BC.GAME
-############################################################
-
-bc.game
-www.bc.game
-
-############################################################
-# 1XBET
+# 1X / 22BET / MELBET
 ############################################################
 
 1xbet.com
 www.1xbet.com
 1x-bet.com
 
-############################################################
-# 22BET
-############################################################
-
 22bet.com
 www.22bet.com
-
-############################################################
-# MELBET
-############################################################
 
 melbet.com
 www.melbet.com
 
 ############################################################
-# PARIMATCH
-############################################################
-
-parimatch.com
-www.parimatch.com
-
-############################################################
-# BWIN
-############################################################
-
-bwin.com
-www.bwin.com
-
-############################################################
-# BETWAY
+# BETWAY / BWIN / BETSSON
 ############################################################
 
 betway.com
 www.betway.com
 
-############################################################
-# WILLIAM HILL
-############################################################
-
-williamhill.com
-www.williamhill.com
-
-############################################################
-# BETSSON
-############################################################
+bwin.com
+www.bwin.com
 
 betsson.com
 www.betsson.com
 
 ############################################################
-# LEOVEGAS
+# PARIMATCH / UNIBET / LEOVEGAS
 ############################################################
+
+parimatch.com
+www.parimatch.com
+
+unibet.com
+www.unibet.com
 
 leovegas.com
 www.leovegas.com
 
 ############################################################
-# UNIBET
+# WILLIAM HILL / BETVICTOR
 ############################################################
 
-unibet.com
-www.unibet.com
-
-############################################################
-# BETCRIS
-############################################################
-
-betcris.com
-www.betcris.com
-
-############################################################
-# BETVICTOR
-############################################################
+williamhill.com
+www.williamhill.com
 
 betvictor.com
 www.betvictor.com
 
 ############################################################
-# DAFABET
+# DAFABET / BETCRIS
 ############################################################
 
 dafabet.com
 www.dafabet.com
 
-############################################################
-# CLOUD BET
-############################################################
-
-cloudbet.com
-www.cloudbet.com
-
-############################################################
-# SPORTSBET.IO
-############################################################
-
-sportsbet.io
-www.sportsbet.io
-
-############################################################
-# RIVALO
-############################################################
-
-rivalo.com
-www.rivalo.com
-
-############################################################
-# SPORTAZA
-############################################################
-
-sportaza.com
-www.sportaza.com
+betcris.com
+www.betcris.com
 
 ############################################################
 # POKER
@@ -365,17 +300,17 @@ www.888casino.com
 casino.org
 www.casino.org
 
-jackpotcity.com
-www.jackpotcity.com
-
 casumo.com
 www.casumo.com
 
- bitstarz.com
+bitstarz.com
 www.bitstarz.com
 
+jackpotcity.com
+www.jackpotcity.com
+
 ############################################################
-# FANTASY SPORTS
+# FANTASY / SPORTS BET
 ############################################################
 
 draftkings.com
@@ -383,20 +318,6 @@ www.draftkings.com
 
 fanduel.com
 www.fanduel.com
-
-############################################################
-# LOTERIAS
-############################################################
-
-lottoland.com
-www.lottoland.com
-
-############################################################
-# BINGO
-############################################################
-
-bingo.com
-www.bingo.com
 
 ############################################################
 # ESPORTS BET
@@ -408,10 +329,6 @@ www.gg.bet
 thunderpick.io
 www.thunderpick.io
 
-############################################################
-# CRASH / SKINS / CSGO
-############################################################
-
 csgoempire.com
 www.csgoempire.com
 
@@ -419,23 +336,14 @@ rain.gg
 www.rain.gg
 
 ############################################################
-# SLOT PROVIDERS
+# LOTERIAS
 ############################################################
 
-pragmaticplay.net
-www.pragmaticplay.net
-
-evolution.com
-www.evolution.com
-
-spribe.co
-www.spribe.co
-
-hacksawgaming.com
-www.hacksawgaming.com
+lottoland.com
+www.lottoland.com
 
 ############################################################
-# AFILIADOS / TRACKERS
+# AFILIADOS / TRACKING
 ############################################################
 
 apostaganha.com
@@ -444,49 +352,21 @@ www.apostaganha.com
 oddspedia.com
 www.oddspedia.com
 
-flashscorebet.com
-www.flashscorebet.com
-
 bettercollective.com
 catena.media
 
 ############################################################
-# PAGAMENTO BET
+# PAGAMENTOS BET
 ############################################################
 
 pay4fun.com
 www.pay4fun.com
 
 ############################################################
-# APPS / CDN / MEDIA
+# CDN / INFRA BET
 ############################################################
 
-stakecdn.com
 cdnstake.com
+stakecdn.com
 cloudbetcdn.com
 bet365games.com
-
-############################################################
-# STREAMS DE APOSTAS
-############################################################
-
-kick.com
-www.kick.com
-
-############################################################
-# KEYWORDS BET (REGEX OPCIONAL)
-############################################################
-
-(^|\.)bet$
-(^|\.)bets$
-(^|\.)casino$
-(^|\.)poker$
-(^|\.)slot$
-(^|\.)slots$
-(^|\.)gambling$
-(^|\.)cassino$
-(^|\.)aposta$
-(^|\.)apostas$
-(^|\.)crash$
-(^|\.)roleta$
-(^|\.)bingo$
