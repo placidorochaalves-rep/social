@@ -1,0 +1,271 @@
+############################################################
+# ENTERPRISE BLACKLIST - GAMES / GAMING PLATFORM
+# WEB + APPS (ANDROID / IOS / WINDOWS / LINUX)
+#
+# Pi-hole / AdGuard / Technitium / NextDNS
+#
+# ✔ Cobertura:
+# - Game stores
+# - Cloud gaming
+# - Launchers
+# - Game platforms
+# - Social gaming
+# - Esports platforms
+# - Game streaming
+#
+# ✔ SAFE:
+# - Bancos
+# - WhatsApp
+# - Telegram
+# - Discord
+# - MFA
+############################################################
+
+############################################################
+# STEAM
+############################################################
+
+steampowered.com
+store.steampowered.com
+steamcommunity.com
+steamstatic.com
+steamcontent.com
+steamcdn-a.akamaihd.net
+steamcdn.com
+steamserver.net
+
+############################################################
+# EPIC GAMES
+############################################################
+
+epicgames.com
+www.epicgames.com
+store.epicgames.com
+launcher-public-service-prod06.ol.epicgames.com
+epicgames.dev
+epicgamescdn.com
+
+############################################################
+# RIOT GAMES
+############################################################
+
+riotgames.com
+www.riotgames.com
+leagueoflegends.com
+playvalorant.com
+riotcdn.net
+riotclientservices.com
+account.riotgames.com
+
+############################################################
+# BLIZZARD / BATTLE.NET
+############################################################
+
+blizzard.com
+www.blizzard.com
+battle.net
+eu.battle.net
+us.battle.net
+account.battle.net
+blizzardgames.com
+
+############################################################
+# EA / ELECTRONIC ARTS
+############################################################
+
+ea.com
+www.ea.com
+origin.com
+store.origin.com
+eaassets-a.akamaihd.net
+ea.com.edgekey.net
+
+############################################################
+# UBISOFT
+############################################################
+
+ubisoft.com
+www.ubisoft.com
+store.ubisoft.com
+ubisoftconnect.com
+uplay.com
+
+############################################################
+# MICROSOFT XBOX
+############################################################
+
+xbox.com
+www.xbox.com
+live.com
+login.live.com
+store.xbox.com
+xboxlive.com
+xboxservices.com
+xboxcdn.com
+
+############################################################
+# PLAYSTATION
+############################################################
+
+playstation.com
+www.playstation.com
+store.playstation.com
+psn.com
+playstation.net
+sonyentertainmentnetwork.com
+
+############################################################
+# NINTENDO
+############################################################
+
+nintendo.com
+www.nintendo.com
+accounts.nintendo.com
+ec.nintendo.com
+nintendo.net
+
+############################################################
+# GOG (GOOD OLD GAMES)
+############################################################
+
+gog.com
+www.gog.com
+cdn.gog.com
+
+############################################################
+# ROCKSTAR GAMES
+############################################################
+
+rockstargames.com
+www.rockstargames.com
+socialclub.rockstargames.com
+
+############################################################
+# VALVE / DOTA
+############################################################
+
+valvesoftware.com
+dota2.com
+steamusercontent.com
+
+############################################################
+# ROBLOX
+############################################################
+
+roblox.com
+www.roblox.com
+rbxcdn.com
+rbx.com
+clientsettings.roblox.com
+
+############################################################
+# MINECRAFT
+############################################################
+
+minecraft.net
+www.minecraft.net
+mojang.com
+account.mojang.com
+launcher.mojang.com
+
+############################################################
+# EPIC / FORTNITE
+############################################################
+
+fortnite.com
+www.fortnite.com
+
+############################################################
+# GOOGLE PLAY GAMES
+############################################################
+
+play.google.com
+play.googleapis.com
+android.clients.google.com
+
+############################################################
+# APP STORE GAMES
+############################################################
+
+apps.apple.com
+itunes.apple.com
+
+############################################################
+# CLOUD GAMING
+############################################################
+
+nvidia.com
+www.nvidia.com
+geforce.com
+play.geforcenow.com
+
+stadia.google.com
+
+xcloud.com
+gamepass.com
+
+############################################################
+# DISCORD GAMING / CDN (SOCIAL GAMING)
+############################################################
+
+discord.com
+cdn.discordapp.com
+media.discordapp.net
+
+############################################################
+# TWITCH GAMING STREAM
+############################################################
+
+twitch.tv
+www.twitch.tv
+ttvnw.net
+jtvnw.net
+
+############################################################
+# YOUTUBE GAMING
+############################################################
+
+youtube.com
+gaming.youtube.com
+
+############################################################
+# ESPORTS
+############################################################
+
+esl.com
+www.esl.com
+faceit.com
+www.faceit.com
+hltv.org
+www.hltv.org
+epulze.com
+challengermode.com
+
+############################################################
+# GAME MODS / DISTRIBUTION
+############################################################
+
+nexusmods.com
+www.nexusmods.com
+moddb.com
+www.moddb.com
+curseforge.com
+www.curseforge.com
+
+############################################################
+# GAME LAUNCHERS / CDN
+############################################################
+
+akamaihd.net
+akamaized.net
+cloudfront.net
+fastly.net
+
+############################################################
+# GAME ADS / TRACKING
+############################################################
+
+unity3d.com
+unity.com
+ads.unity3d.com
+analytics.unity3d.com
