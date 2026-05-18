@@ -1,213 +1,364 @@
-#################################################
-# BLACKLIST COMPLETA
-# WEB + ANDROID + APPS + CDN + DNS
-# Redes Sociais | Streaming | Mensageria
-# Uso: Pi-hole / AdGuard / DNS Sinkhole
-#################################################
+############################################################
+# BLACKLIST ULTRA COMPLETA - SOCIAL / STREAMING / APPS
+# SEM WHATSAPP / TELEGRAM / DISCORD
+#
+# Compatível:
+# - Pi-hole
+# - AdGuard Home
+# - Technitium
+# - MikroTik DNS
+# - NextDNS
+# - pfSense
+############################################################
 
-#################################################
-# YOUTUBE
-#################################################
+############################################################
+# YOUTUBE / GOOGLE VIDEO
+############################################################
 youtube.com
 www.youtube.com
 m.youtube.com
 music.youtube.com
 studio.youtube.com
+gaming.youtube.com
+kids.youtube.com
 youtu.be
 youtubei.googleapis.com
 youtube.googleapis.com
+youtubeembeddedplayer.googleapis.com
 s.youtube.com
+youtube-ui.l.google.com
+youtube-nocookie.com
 www.youtube-nocookie.com
 googlevideo.com
+redirector.googlevideo.com
+manifest.googlevideo.com
 ytimg.com
 i.ytimg.com
 s.ytimg.com
 yt3.ggpht.com
-redirector.googlevideo.com
+ggpht.com
+youtubeeducation.com
+youtubekids.com
 
-#################################################
-# FACEBOOK / META
-#################################################
+############################################################
+# FACEBOOK
+############################################################
 facebook.com
-fb.com
-fbcdn.net
-fbsbx.com
-messenger.com
+www.facebook.com
 m.facebook.com
 touch.facebook.com
+fb.com
+fb.me
+fbcdn.net
+fbsbx.com
+facebook.net
+facebookmail.com
+messenger.com
+connect.facebook.net
+graph.facebook.com
+mqtt.facebook.com
+edge-mqtt.facebook.com
+star.c10r.facebook.com
+upload.facebook.com
+video.xx.fbcdn.net
+external.xx.fbcdn.net
 
-#################################################
+############################################################
 # INSTAGRAM
-#################################################
+############################################################
 instagram.com
+www.instagram.com
+i.instagram.com
+graph.instagram.com
 cdninstagram.com
 ig.me
-graph.instagram.com
+instagram.frec1-1.fna.fbcdn.net
+instagram.frec2-1.fna.fbcdn.net
+instagram.c10r.facebook.com
 
-#################################################
+############################################################
 # THREADS
-#################################################
+############################################################
 threads.net
+www.threads.net
 
-
-#################################################
+############################################################
 # TIKTOK
-#################################################
+############################################################
 tiktok.com
+www.tiktok.com
+m.tiktok.com
 tiktokcdn.com
 tiktokv.com
+tiktokcdn-us.com
 byteoversea.com
 ibyteimg.com
+ibytedtos.com
 musical.ly
+ttwstatic.com
+tik-tokapi.com
 
-#################################################
+############################################################
 # X / TWITTER
-#################################################
+############################################################
 x.com
 twitter.com
+mobile.twitter.com
+api.twitter.com
 t.co
 twimg.com
+abs.twimg.com
 pbs.twimg.com
+video.twimg.com
+syndication.twitter.com
 
-#################################################
+############################################################
 # SNAPCHAT
-#################################################
+############################################################
 snapchat.com
 snapchat-cdn.com
+sc-cdn.net
+feelinsonice.appspot.com
 
-#################################################
+############################################################
 # LINKEDIN
-#################################################
+############################################################
 linkedin.com
+www.linkedin.com
+br.linkedin.com
+mobile.linkedin.com
+learning.linkedin.com
+business.linkedin.com
+careers.linkedin.com
+platform.linkedin.com
+api.linkedin.com
+ads.linkedin.com
+analytics.linkedin.com
+linkedin.cn
+linkedin-ei.com
+linkedinbusiness.net
 licdn.com
+media.licdn.com
+static.licdn.com
+licdn-ei.com
+lnkd.in
 
-#################################################
+############################################################
 # REDDIT
-#################################################
+############################################################
 reddit.com
+www.reddit.com
 redditstatic.com
+redditmedia.com
 redd.it
+gateway.reddit.com
+preview.redd.it
 
-#################################################
+############################################################
 # PINTEREST
-#################################################
+############################################################
 pinterest.com
+www.pinterest.com
 pinimg.com
+pinterestmail.com
 
-#################################################
+############################################################
+# TWITCH
+############################################################
+twitch.tv
+clips.twitch.tv
+ext-twitch.tv
+ttvnw.net
+jtvnw.net
+
+############################################################
 # KWAI
-#################################################
+############################################################
 kwai.com
 kwai-video.com
 kwai.net
 
-#################################################
-# TWITCH
-#################################################
-twitch.tv
-ttvnw.net
-jtvnw.net
-
-#################################################
+############################################################
 # VIMEO
-#################################################
+############################################################
 vimeo.com
+player.vimeo.com
 vimeocdn.com
+f.vimeocdn.com
 
-#################################################
+############################################################
 # NETFLIX
-#################################################
+############################################################
 netflix.com
 nflxvideo.net
 nflximg.net
+nflximg.com
 nflxext.com
+nflxso.net
+fast.com
 
-#################################################
+############################################################
 # PRIME VIDEO
-#################################################
+############################################################
 primevideo.com
 amazonvideo.com
 aiv-cdn.net
+media-amazon.com
 
-#################################################
+############################################################
 # DISNEY+
-#################################################
+############################################################
 disneyplus.com
 bamgrid.com
 dssott.com
+disney-plus.net
 
-#################################################
+############################################################
 # HBO MAX / MAX
-#################################################
+############################################################
 max.com
 hbomax.com
+api.hbo.com
 
-#################################################
+############################################################
 # GLOBOPLAY
-#################################################
+############################################################
 globoplay.globo.com
 globo.com
+video.globo.com
 
-#################################################
+############################################################
 # SPOTIFY
-#################################################
+############################################################
 spotify.com
 scdn.co
 audio-ak.spotify.com
+apresolve.spotify.com
+spclient.wg.spotify.com
 
-#################################################
+############################################################
 # DEEZER
-#################################################
+############################################################
 deezer.com
 dzcdn.net
 
-#################################################
+############################################################
 # SOUNDCLOUD
-#################################################
+############################################################
 soundcloud.com
+sndcdn.com
 
-#################################################
+############################################################
 # TIDAL
-#################################################
+############################################################
 tidal.com
 
-#################################################
-# APPLE STREAMING
-#################################################
+############################################################
+# APPLE MUSIC / APPLE TV
+############################################################
 music.apple.com
 tv.apple.com
+applemusic.com
+mzstatic.com
+itunes.apple.com
 
-#################################################
-# GOOGLE PLAY / ANDROID SOCIAL
-#################################################
+############################################################
+# APP STORE / ICLOUD
+############################################################
+apps.apple.com
+appstoreconnect.apple.com
+icloud.com
+icloud-content.com
+apple-dns.net
+cdn-apple.com
+
+############################################################
+# GOOGLE PLAY / ANDROID
+############################################################
 play.google.com
 play.googleapis.com
 android.clients.google.com
+android.googleapis.com
+connectivitycheck.gstatic.com
+mtalk.google.com
+play-fe.googleapis.com
 
-#################################################
-# APPLE APPSTORE SOCIAL
-#################################################
-apps.apple.com
+############################################################
+# XBOX / GAMING
+############################################################
+xboxlive.com
+xbox.com
 
-#################################################
-# DNS OVER HTTPS (BYPASS)
-#################################################
+############################################################
+# STEAM
+############################################################
+steampowered.com
+steamcommunity.com
+steamstatic.com
+steamcontent.com
+
+############################################################
+# DNS OVER HTTPS / DNS BYPASS
+############################################################
 dns.google
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
+dns.quad9.net
+dns.adguard.com
+dns.nextdns.io
+dns.opendns.com
 
-#################################################
+############################################################
+# DNS OVER TLS
+############################################################
+one.one.one.one
+dns9.quad9.net
+
+############################################################
 # CDN / MEDIA DELIVERY
-#################################################
+############################################################
 akamaihd.net
 akamaized.net
 fastly.net
 edgekey.net
 edgesuite.net
+cloudfront.net
+cdn.cloudflare.net
 
-#################################################
-# GOOGLE MEDIA
-#################################################
+############################################################
+# GOOGLE CDN / MEDIA
+############################################################
 googleusercontent.com
-ggpht.com
+googleusercontent.cn
 gstatic.com
+googleapis.com
+
+############################################################
+# AMAZON CDN
+############################################################
+amazonaws.com
+media-amazon.com
+
+############################################################
+# CLOUD CDN
+############################################################
+cloudflare.com
+cloudfront.net
+
+############################################################
+# LINUX PACKAGES / MEDIA
+############################################################
+snapcraft.io
+flathub.org
+
+############################################################
+# QUIC / HTTP3
+############################################################
+quic.google.com
+googleweblight.com
+
+############################################################
+# WEBRTC / RTC
+############################################################
+stun.l.google.com
+turn.googleapis.com
