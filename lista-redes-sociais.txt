@@ -1,0 +1,108 @@
+#################################################
+# WHITELIST - REDES SOCIAIS
+# Uso corporativo - TI
+#################################################
+
+############################
+# META (FACEBOOK)
+############################
+facebook.com
+fb.com
+fbcdn.net
+fbsbx.com
+messenger.com
+
+############################
+# INSTAGRAM / THREADS
+############################
+instagram.com
+cdninstagram.com
+threads.net
+
+############################
+# X (TWITTER)
+############################
+x.com
+twitter.com
+t.co
+twimg.com
+
+############################
+# TIKTOK
+############################
+tiktok.com
+tiktokcdn.com
+tiktokv.com
+byteoversea.com
+musical.ly
+
+############################
+# GOOGLE / YOUTUBE SOCIAL
+############################
+youtube.com
+youtu.be
+ytimg.com
+googlevideo.com
+youtubei.googleapis.com
+
+############################
+# LINKEDIN
+############################
+linkedin.com
+licdn.com
+linkedin.cn
+
+############################
+# SNAPCHAT
+############################
+snapchat.com
+snapchat-cdn.com
+
+############################
+# REDDIT
+############################
+reddit.com
+redditstatic.com
+redd.it
+
+############################
+# PINTEREST
+############################
+pinterest.com
+pinimg.com
+
+
+############################
+# KWAI (POPULAR BR)
+############################
+kwai.com
+kwai-video.com
+kwai.net
+
+############################
+# TWITCH (LIVE SOCIAL)
+############################
+twitch.tv
+ttvnw.net
+
+############################
+# VIMEO
+############################
+vimeo.com
+vimeocdn.com
+
+############################
+# WECHAT (SOCIAL CHINA)
+############################
+wechat.com
+weixin.qq.com
+
+############################
+# OUTROS SOCIAIS / COMUNIDADES
+############################
+quora.com
+medium.com
+tumblr.com
+vk.com
+badoo.com
+ok.ru
