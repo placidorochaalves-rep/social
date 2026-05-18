@@ -1,0 +1,227 @@
+############################################################
+# ENTERPRISE BLACKLIST - MÚSICA / ÁUDIO / PODCAST (SAFE)
+# WEB + ANDROID + IOS + WINDOWS + LINUX + SMART TV
+# Pi-hole / AdGuard / Technitium / NextDNS
+#
+# ✔ Bloqueia:
+# - Streaming de música
+# - Podcasts
+# - Rádio online
+# - Letras
+# - Players web
+#
+# ✔ NÃO quebra:
+# - WhatsApp
+# - Telegram
+# - Discord
+# - Bancos
+# - MFA
+# - Android
+# - iOS
+# - WebView
+############################################################
+
+############################################################
+# SPOTIFY
+############################################################
+
+spotify.com
+www.spotify.com
+open.spotify.com
+accounts.spotify.com
+api.spotify.com
+dealer.spotify.com
+spclient.wg.spotify.com
+lineup-images.scdn.co
+i.scdn.co
+spotifycdn.com
+
+############################################################
+# DEEZER
+############################################################
+
+deezer.com
+www.deezer.com
+api.deezer.com
+mobile.deezer.com
+
+############################################################
+# SOUNDCLOUD
+############################################################
+
+soundcloud.com
+api.soundcloud.com
+
+############################################################
+# TIDAL
+############################################################
+
+tidal.com
+listen.tidal.com
+resources.tidal.com
+api.tidal.com
+
+############################################################
+# APPLE MUSIC
+############################################################
+
+music.apple.com
+itunes.apple.com
+
+############################################################
+# AMAZON MUSIC
+############################################################
+
+music.amazon.com
+music.amazon.com.br
+amazonmusic.com
+
+############################################################
+# YOUTUBE MUSIC
+############################################################
+
+music.youtube.com
+youtube.com
+www.youtube.com
+m.youtube.com
+youtu.be
+youtubei.googleapis.com
+youtube.googleapis.com
+ytimg.com
+i.ytimg.com
+s.ytimg.com
+yt3.ggpht.com
+
+############################################################
+# NAPSTER
+############################################################
+
+napster.com
+app.napster.com
+api.napster.com
+
+############################################################
+# PANDORA
+############################################################
+
+pandora.com
+www.pandora.com
+
+############################################################
+# AUDIBLE
+############################################################
+
+audible.com
+www.audible.com
+api.audible.com
+
+############################################################
+# AUDIOMACK
+############################################################
+
+audiomack.com
+api.audiomack.com
+
+############################################################
+# BANDCAMP
+############################################################
+
+bandcamp.com
+
+############################################################
+# SHAZAM
+############################################################
+
+shazam.com
+www.shazam.com
+
+############################################################
+# LAST.FM
+############################################################
+
+last.fm
+www.last.fm
+
+############################################################
+# LETRAS / CIFRAS
+############################################################
+
+genius.com
+
+letras.mus.br
+www.letras.mus.br
+
+vagalume.com.br
+www.vagalume.com.br
+
+cifraclub.com.br
+www.cifraclub.com.br
+
+############################################################
+# PODCASTS
+############################################################
+
+podcasts.apple.com
+podcasts.google.com
+anchor.fm
+spotifyforpodcasters.com
+megaphone.fm
+simplecast.com
+castbox.fm
+pocketcasts.com
+overcast.fm
+
+############################################################
+# RÁDIOS ONLINE
+############################################################
+
+tunein.com
+radio.garden
+streema.com
+mytuner-radio.com
+online-radio.com
+
+############################################################
+# MIXCLOUD
+############################################################
+
+mixcloud.com
+www.mixcloud.com
+
+############################################################
+# DISCOGS
+############################################################
+
+discogs.com
+api.discogs.com
+
+############################################################
+# MUSIXMATCH
+############################################################
+
+musixmatch.com
+www.musixmatch.com
+
+############################################################
+# KARAOKÊ
+############################################################
+
+smule.com
+www.smule.com
+karaoke-version.com
+
+############################################################
+# STREAMING BR
+############################################################
+
+palcomp3.com
+suamusica.com.br
+
+############################################################
+# WEB PLAYERS
+############################################################
+
+open.spotify.com
+music.youtube.com
+music.apple.com
+listen.tidal.com
