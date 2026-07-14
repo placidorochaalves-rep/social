@@ -1,0 +1,71 @@
+# Meta
+facebook.com
+www.facebook.com
+m.facebook.com
+mbasic.facebook.com
+touch.facebook.com
+fb.com
+fb.me
+fb.watch
+facebook.net
+facebookmail.com
+
+# Instagram
+instagram.com
+www.instagram.com
+i.instagram.com
+graph.instagram.com
+cdninstagram.com
+instagram.frec*.fbcdn.net
+
+# Messenger
+messenger.com
+www.messenger.com
+
+# Threads
+threads.net
+www.threads.net
+
+# WhatsApp
+whatsapp.com
+www.whatsapp.com
+web.whatsapp.com
+static.whatsapp.net
+mmx-ds.cdn.whatsapp.net
+dit.whatsapp.net
+scontent.whatsapp.net
+
+# Meta Login/API
+graph.facebook.com
+graph.instagram.com
+api.facebook.com
+api.instagram.com
+b-api.facebook.com
+edge-chat.facebook.com
+
+# CDN Meta
+fbcdn.net
+*.fbcdn.net
+fbsbx.com
+*.fbsbx.com
+connect.facebook.net
+staticxx.facebook.com
+lookaside.facebook.com
+video.xx.fbcdn.net
+external.xx.fbcdn.net
+scontent.xx.fbcdn.net
+scontent-*.fbcdn.net
+
+# Uploads e mídia
+upload.facebook.com
+upload.instagram.com
+video.facebook.com
+video.xx.fbcdn.net
+
+# Certificados
+crl.facebook.com
+ocsp.facebook.com
+
+# Login Meta
+accountscenter.facebook.com
+accountscenter.instagram.com
