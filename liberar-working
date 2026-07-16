@@ -1,0 +1,226 @@
+# ============================================================================
+# WHITELIST CORPORATIVA - PI-HOLE
+# Google Workspace + Microsoft 365 + Ferramentas Corporativas
+# Redes Sociais NÃO incluídas
+# ============================================================================
+
+# GOOGLE
+google.com
+www.google.com
+accounts.google.com
+myaccount.google.com
+gmail.com
+mail.google.com
+googlemail.com
+drive.google.com
+docs.google.com
+sheets.google.com
+slides.google.com
+forms.google.com
+calendar.google.com
+meet.google.com
+chat.google.com
+keep.google.com
+contacts.google.com
+workspace.google.com
+admin.google.com
+groups.google.com
+sites.google.com
+vault.google.com
+
+googleapis.com
+www.googleapis.com
+admin.googleapis.com
+people.googleapis.com
+content.googleapis.com
+oauth2.googleapis.com
+storage.googleapis.com
+firebaseinstallations.googleapis.com
+firebaselogging.googleapis.com
+firebaseremoteconfig.googleapis.com
+update.googleapis.com
+
+googleusercontent.com
+gstatic.com
+ggpht.com
+googlevideo.com
+ytimg.com
+
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+clients.l.google.com
+mtalk.google.com
+dl.google.com
+connectivitycheck.gstatic.com
+connectivitycheck.android.com
+
+# MICROSOFT
+microsoft.com
+microsoftonline.com
+login.microsoftonline.com
+office.com
+office365.com
+office.net
+officeapps.live.com
+outlook.com
+outlook.office.com
+outlook.office365.com
+onedrive.live.com
+onedrive.com
+sharepoint.com
+teams.microsoft.com
+live.com
+login.live.com
+
+windowsupdate.com
+update.microsoft.com
+download.windowsupdate.com
+windows.com
+msftconnecttest.com
+msftncsi.com
+
+azure.com
+azureedge.net
+azurewebsites.net
+blob.core.windows.net
+
+# APPLE
+apple.com
+icloud.com
+me.com
+apps.apple.com
+itunes.apple.com
+mzstatic.com
+
+# CLOUD
+amazonaws.com
+aws.amazon.com
+cloudflare.com
+cloudflare-dns.com
+fastly.com
+fastly.net
+oraclecloud.com
+digitalocean.com
+digitaloceanspaces.com
+
+# DROPBOX
+dropbox.com
+dropboxapi.com
+dropboxusercontent.com
+
+# BOX
+box.com
+boxcloud.com
+
+# ADOBE
+adobe.com
+adobelogin.com
+adobe.io
+creativecloud.adobe.com
+
+# GITHUB
+github.com
+githubusercontent.com
+githubassets.com
+raw.githubusercontent.com
+objects.githubusercontent.com
+
+# GITLAB
+gitlab.com
+
+# BITBUCKET
+bitbucket.org
+
+# DOCKER
+docker.com
+docker.io
+hub.docker.com
+registry-1.docker.io
+
+# NPM
+npmjs.com
+registry.npmjs.org
+
+# PYTHON
+python.org
+pypi.org
+files.pythonhosted.org
+
+# UBUNTU
+ubuntu.com
+archive.ubuntu.com
+security.ubuntu.com
+snapcraft.io
+
+# VMWARE
+vmware.com
+
+# PROXMOX
+proxmox.com
+
+# MIKROTIK
+mikrotik.com
+download.mikrotik.com
+
+# FORTINET
+fortinet.com
+fortiguard.com
+
+# UBIQUITI
+ui.com
+ubnt.com
+
+# ZABBIX
+zabbix.com
+
+# GOOGLE MEET / ZOOM / WEBEX
+zoom.us
+zoom.com
+webex.com
+ciscospark.com
+
+# ACESSO REMOTO
+teamviewer.com
+anydesk.com
+relay.anydesk.com
+rustdesk.com
+
+# CERTIFICADOS
+letsencrypt.org
+digicert.com
+globalsign.com
+sectigo.com
+entrust.com
+
+# BANCOS
+bb.com.br
+caixa.gov.br
+itau.com.br
+bradesco.com.br
+santander.com.br
+sicredi.com.br
+sicoob.com.br
+inter.co
+nubank.com.br
+mercadopago.com.br
+gov.br
+pix.bcb.gov.br
+
+# ERPs E CLOUD
+totvs.com.br
+senior.com.br
+sap.com
+oracle.com
+
+# DNS
+1dot1dot1dot1.cloudflare-dns.com
+dns.google
+
+# NTP
+pool.ntp.org
+time.google.com
+time.windows.com
